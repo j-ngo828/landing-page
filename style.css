@@ -17,8 +17,9 @@ a {
 }
 
 header {
-  padding: 16px;
+  padding: 20px 64px;
   display: flex;
+  flex-direction: column;
 }
 
 header nav {
@@ -26,6 +27,7 @@ header nav {
   width: 100%;
   align-items: center;
   gap: 16px;
+  margin-bottom: 70px;
 }
 
 .logo-text {
@@ -35,8 +37,53 @@ header nav {
   font-weight: bold;
 }
 
-.link {
+.link,
+.secondary-text,
+.image-text {
   font-size: 18px;
   color: #e5e7eb;
   font-weight: 300;
+}
+
+.introduction {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding-bottom: 64px;
+}
+
+.intro-text,
+.image {
+  display: flex;
+}
+
+.intro-text {
+  flex-direction: column;
+  flex-basis: 400px;
+}
+
+.awesome-text {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+.secondary-text {
+  margin-bottom: 16px;
+}
+
+.sign-up-button {
+  width: fit-content;
+  background: #3882f6;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 24px;
+  color: #f9faf8;
+}
+
+.image {
+  padding: 16px;
+  background-color: #bcc3d3;
+  justify-content: center;
+  align-items: center;
 }

@@ -182,8 +182,7 @@ button:hover {
   align-items: center;
   gap: 48px;
   background-color: #3882f6;
-  width: 80%;
-  padding: 36px;
+  padding: 36px 48px;
   border-radius: 8px;
 }
 

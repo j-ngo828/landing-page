@@ -27,7 +27,7 @@ header nav {
   width: 100%;
   align-items: center;
   gap: 16px;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 
 .logo-text {
@@ -52,14 +52,15 @@ header nav {
   padding-bottom: 64px;
 }
 
-.intro-text,
+.intro-section,
 .image {
   display: flex;
 }
 
-.intro-text {
+.intro-section {
   flex-direction: column;
   flex-basis: 400px;
+  gap: 12px;
 }
 
 .awesome-text {
@@ -69,7 +70,7 @@ header nav {
 }
 
 .secondary-text {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .sign-up-button {

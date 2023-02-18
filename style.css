@@ -30,6 +30,14 @@ header nav {
   margin-bottom: 50px;
 }
 
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 70%;
+}
+
 .logo-text {
   font-size: 24px;
   color: #f9faf8;
@@ -159,4 +167,47 @@ header nav {
   text-align: right;
   font-weight: 600;
   font-size: 24px;
+}
+
+.call-to-action-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.call-to-action-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 48px;
+  background-color: #3882f6;
+  width: 80%;
+  padding: 36px;
+  border-radius: 8px;
+}
+
+.call-to-action-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.call-to-action-text .primary {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.call-to-action-text .secondary {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.call-to-action-button {
+  border: 1px solid white;
+  background-color: #3882f6;
+  border-radius: 8px;
+  padding: 8px 24px;
+  height: fit-content;
+  color: #f9faf8;
 }

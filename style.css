@@ -91,8 +91,8 @@ button:hover {
 }
 
 .image {
-  padding: 16px;
-  background-color: #bcc3d3;
+  padding: 64px;
+  background-color: #5b5f68;
   justify-content: center;
   align-items: center;
 }
@@ -216,7 +216,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 24px;
+  padding: 36px 0;
   font-size: 18px;
   color: #e5e7eb;
   font-weight: 300;
